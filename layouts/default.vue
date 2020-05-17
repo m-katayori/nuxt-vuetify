@@ -101,16 +101,21 @@ export default {
           title: 'Welcome',
           to: '/'
         },
+        // {
+        //   icon: 'mdi-chart-bubble',
+        //   title: 'Inspire',
+        //   to: '/inspire'
+        // },
+        // {
+        //   icon: 'mdi-chart-bubble',
+        //   title: 'Test',
+        //   to: '/test'
+        // },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'Plants',
+          to: '/plants'
         },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Test',
-          to: '/test'
-        }
       ],
       miniVariant: false,
       right: true,
