@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <Logo />
-    <VuetifyLogo />
-  </div>
+	<div>
+		<Logo />
+		<VuetifyLogo />
+	</div>
 </template>
 
 <script>
@@ -10,9 +10,9 @@ import Logo from '~/components/Logo.vue'
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
 
 export default {
-  components: {
-    Logo,
-    VuetifyLogo
-  }
+	components: {
+		Logo,
+		VuetifyLogo
+	}
 }
 </script>
