@@ -45,12 +45,12 @@
 				<v-icon>mdi-application</v-icon>
 			</v-btn> -->
 
-			<v-btn
+			<!-- <v-btn
 				icon
 				@click.stop="fixed = !fixed"
 			>
 				<v-icon>mdi-minus</v-icon>
-			</v-btn>
+			</v-btn> -->
 			
 			<v-toolbar-title v-text="title" />
 			<v-spacer />
@@ -117,7 +117,7 @@ export default {
 				// },
 				{
 					icon: 'mdi-chart-bubble',
-					title: 'Plants',
+					title: '植物一覧',
 					to: '/plants'
 				},
 			],

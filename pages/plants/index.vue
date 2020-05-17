@@ -24,12 +24,19 @@
 			></v-text-field>
 		</v-card-text>
 
-		<v-divider></v-divider>
-
 		<v-card-actions>
 			<v-spacer></v-spacer>
 			<v-btn
 				@click="dialog = false"
+				color="error"
+				text
+			>
+				閉じる
+			</v-btn>
+			<v-btn
+				@click="dialog = false"
+				color="primary"
+				text
 			>
 				登録する
 			</v-btn>

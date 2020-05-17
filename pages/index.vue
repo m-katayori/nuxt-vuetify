@@ -1,7 +1,9 @@
 <template>
 	<div>
-		<Logo />
-		<VuetifyLogo />
+		<!-- <Logo />
+		<VuetifyLogo /> -->
+		<h1>植物管理アプリ</h1>
+		<v-btn to="/plants">つかってみる</v-btn>
 	</div>
 </template>
 
