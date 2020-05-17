@@ -124,7 +124,7 @@ export default {
 			miniVariant: false,
 			right: true,
 			rightDrawer: false,
-			title: 'Vuetify.js'
+			title: 'clumpball'
 		}
 	}
 }
