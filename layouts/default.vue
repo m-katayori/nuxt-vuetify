@@ -62,9 +62,9 @@
 			</v-btn>
 		</v-app-bar>
 		<v-content>
-			<v-container>
+			<div class="content pa-2">
 				<nuxt />
-			</v-container>
+			</div>
 		</v-content>
 		<v-navigation-drawer
 			v-model="rightDrawer"
